@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    padding: 20px;
+}
+
+.card-body {
+    width: 60%;
+    padding: 30px;
+    
+}
+
+@media (max-width: 500px) {
+.card {
+    flex-wrap: wrap;
+    text-align: left;
+}
+}
